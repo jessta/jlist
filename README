@@ -1,0 +1,29 @@
+jlist
+=================
+jlist is my fork of dio, dio is a generic input output program for X. 
+It reads list items from stdin. These items can be added or removed, they 
+can be grouped and sorted by groups, and be output to stdout singly or as a
+whole group at a time. jlist can also generate text for stdout from user input.
+
+The idea behind this is to give a generic interface for editing 
+
+Requirements
+------------
+In order to build jlist you need the Xlib header files.
+
+
+Installation
+------------
+Edit config.mk to match your local setup (jlist is installed into
+the /usr/local namespace by default).
+
+Afterwards enter the following command to build and install dlist (if
+necessary as root):
+
+    make clean install
+
+Links
+-----
+Original dio,  http://code.google.com/p/dynamic-io/
+
+
